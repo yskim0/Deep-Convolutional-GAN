@@ -39,6 +39,8 @@ optional&required arguments
                 help="Total training epochs"
 --batch_size    type=int, default=64,
                 help="batch size"
+--img_ch        type=int, default=1,
+                help="image channel size(MNIST: 1, CIFAR-10: 3)"
 --gpu           action='store_true', default='False',
                 help="GPU available"
 ```
