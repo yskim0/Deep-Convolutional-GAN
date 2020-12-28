@@ -87,6 +87,13 @@ loss
 [Epoch 66/100] [D loss: 0.0000] [G loss: 72.8966]
 ```
 
+-> 관련 [issue](https://github.com/soumith/ganhacks/issues/14)
+D가 overfitting되면서 G에 영향을 준다.
+
+```
+Adding gaussian noise helped for me
+```
+-> 다음에 이거 반영해서 수정하기
 
 ## Reference
 
